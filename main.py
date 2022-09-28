@@ -53,7 +53,7 @@ class Window(tkinter.Tk):
 
         Label(self, text="Что будем удалять?").grid(column=0, row=3)
         self.selected = IntVar()
-        Radiobutton(self, text="Все трэки", value=1, variable=self.selected).grid(column=1, row=3)
+        Radiobutton(self, text="Все трэtки", value=1, variable=self.selected).grid(column=1, row=3)
         Radiobutton(self, text="Только лайкнутые", value=2, variable=self.selected).grid(column=1, row=4)
 
         Label(self, text="Сколько треков удалить?").grid(column=0, row=5)
